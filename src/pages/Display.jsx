@@ -38,13 +38,9 @@ function Display() {
         <th className='bg-warning'>Religion</th>
         <th className='bg-warning'>Caste</th>
         <th className='bg-warning'>Category</th>
-        <th className='bg-warning'>Admission<br></br>Category</th>
-        <th className='bg-warning'>Email</th>
         <th className='bg-warning'>Mobile</th>
         <th className='bg-warning'>Class</th>
         <th className='bg-warning'>Subject</th>
-        <th className='bg-warning'>FeePaid</th>
-        <th className='bg-warning'>Mandatory<br></br>Paid</th>
         <th className='bg-warning'>TCNo</th>
         <th className='bg-warning'>TCDate</th>
       </tr>
@@ -63,13 +59,9 @@ function Display() {
         <td>{student.religion}</td>
         <td>{student.caste}</td>
         <td>{student.category}</td>
-        <td>{student.admcategory}</td>
-        <td>{student.email}</td>
         <td>{student.mob}</td>
         <td>{student.class}</td>
         <td>{student.subject}</td>
-        <td>{student.feepaid}</td>
-        <td>{student.mandatorypaid}</td>
         <td>{student.tcno}</td>
         <td>{student.tcdate.split("-")[2]+"-"+student.tcdate.split("-")[1]+"-"+student.tcdate.split("-")[0]}</td>
       </tr>
